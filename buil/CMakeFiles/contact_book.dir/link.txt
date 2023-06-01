@@ -1,0 +1,1 @@
+g++ CMakeFiles/contact_book.dir/sources/book.cpp.o CMakeFiles/contact_book.dir/sources/main.cpp.o CMakeFiles/contact_book.dir/sources/backend.cpp.o CMakeFiles/contact_book.dir/sources/frontend.cpp.o -o contact_book  /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1 
