@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/repo
+# Install script for directory: /mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/new_repo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/repo/buil/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/new_repo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

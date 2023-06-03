@@ -2,7 +2,7 @@
  * @ Author: Samael
  * @ Create Time: 2023-05-30 14:28:40
  * @ Modified by: Samael
- * @ Modified time: 2023-06-01 06:39:35
+ * @ Modified time: 2023-06-03 02:17:18
  * @ Description:
  */
 
@@ -14,8 +14,15 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <cstring>
+
 
 #include "backend.hpp"
+
+typedef enum pages_e{
+    MAIN,
+    SPECIAL
+} pages_e;
 
 class Frontend {
 public:
@@ -26,6 +33,8 @@ public:
     void printBdd();
     std::string getClickedText(sf::Vector2i mousePosition);
     void run();
+    void printUser(std::string user);
+    void returnButton();
 protected:
 private:
     Backend *_backend;
@@ -33,4 +42,6 @@ private:
     sf::Event * _event;
     std::map<std::string, std::vector<std::string>> _bdd;
     std::vector<std::pair<sf::Font *, sf::Text *>> _text;
+    pages_e _page;
+    std::string _actualUser;
 };

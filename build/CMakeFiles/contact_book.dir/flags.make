@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/repo/includes
+CXX_INCLUDES = -I/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/new_repo/includes
 
 CXX_FLAGS = -std=gnu++11
 

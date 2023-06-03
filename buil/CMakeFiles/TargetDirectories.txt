@@ -1,3 +1,0 @@
-/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/repo/buil/CMakeFiles/contact_book.dir
-/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/repo/buil/CMakeFiles/edit_cache.dir
-/mnt/e/Projects/03-Personnal/0303-FormatedProject/030302-42Projects/03030202-ContactBook/repo/buil/CMakeFiles/rebuild_cache.dir
