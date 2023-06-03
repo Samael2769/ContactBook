@@ -1,6 +1,6 @@
-##A tiny Contact Book in c++
+## A tiny Contact Book in c++
 
-##Run
+## Run
 ```
 mkdir build
 cd build
