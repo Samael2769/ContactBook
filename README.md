@@ -1,8 +1,10 @@
-#A tiny Contact Book in c++
+##A tiny Contact Book in c++
 
-#Run
-## mkdir Build
-## cd Build
-## cmake ..
-## make
-## ./contact_book
+##Run
+```
+mkdir build
+cd build
+cmake ..
+make
+./contact_book
+```
